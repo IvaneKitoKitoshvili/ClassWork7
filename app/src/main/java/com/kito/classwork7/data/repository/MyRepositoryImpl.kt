@@ -12,7 +12,6 @@ class MyRepositoryImpl @Inject constructor(
 
     init {
         val appName = appContext.getString(R.string.app_name)
-        println("")
     }
 
     override suspend fun doNetworkCall() {
