@@ -1,7 +1,7 @@
 package com.kito.classwork7.di
 
+import com.kito.classwork7.data.repository.MyRepository
 import com.kito.classwork7.data.repository.MyRepositoryImpl
-import com.kito.classwork7.domain.repository.MyRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
