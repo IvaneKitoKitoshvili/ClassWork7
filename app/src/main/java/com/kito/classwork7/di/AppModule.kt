@@ -17,7 +17,7 @@ object AppModule {
     @Singleton
     fun provideMyApi(): MyApi {
         return Retrofit.Builder()
-            .baseUrl("https://test.com")
+            .baseUrl("https://run.mocky.io/v3/")
             .build()
             .create(MyApi::class.java)
     }

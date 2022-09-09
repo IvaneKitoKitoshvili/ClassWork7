@@ -4,6 +4,6 @@ import retrofit2.http.GET
 
 interface MyApi {
 
-    @GET("3/movie/550?api_key=8ae7bfece8bccdc8e4e9d4d42dd1f6f0")
+    @GET("4167a598-b68c-420f-b6e1-fef68b89a10d")
     suspend fun doNetworkCall()
 }
